@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LUXY OFFICIAL PAYMENT</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+    body {
+      margin: 0;
+      padding: 30px 15px;
+      font-family: 'Share Tech Mono', monospace;
+      background: #000;
+      color: #00ff99;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      background-image: linear-gradient(to bottom, #000000, #001a00);
+      animation: matrixScroll 30s linear infinite;
+    }
+
+    @keyframes matrixScroll {
+      from { background-position: 0 0; }
+      to { background-position: 0 1000px; }
+    }
+
+    h1 {
+      color: #00ffcc;
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .thumbnail {
+      width: 160px;
+      height: 160px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #00ff99;
+      margin: 20px 0;
+    }
+
+    .section {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 100%;
+      max-width: 350px;
+      margin-bottom: 40px;
+    }
+
+    .product-card {
+      background: rgba(0, 30, 0, 0.6);
+      border: 1px solid #00ff99;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 0 15px #004d26;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .product-card:hover {
+      background: rgba(0, 50, 0, 0.7);
+      transform: scale(1.03);
+    }
+
+    .product-title {
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #00ffcc;
+    }
+
+    .price {
+      font-size: 0.95em;
+      margin: 6px 0;
+      color: #66ffcc;
+    }
+
+    .product-detail {
+      display: none;
+      margin-top: 8px;
+      font-size: 0.85em;
+      color: #99ffcc;
+      white-space: pre-line;
+    }
+
+    button {
+      background-color: #00ff99;
+      color: black;
+      border: none;
+      padding: 10px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-family: inherit;
+      box-shadow: 0 0 10px #00ff99;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    hr {
+      width: 80%;
+      border: none;
+      height: 1px;
+      background-color: #004400;
+      margin: 30px 0;
+    }
+
+    .note {
+      color: #ccc;
+      font-size: 0.9em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>LUXY OFFICIAL Payment</h1>
+  <img src="https://files.catbox.moe/ffy2nk.jpg" class="thumbnail" />
+
+  <!-- QRIS & DUKUNGAN -->
+  <div class="section">
+    <button onclick="window.open('https://files.catbox.moe/8svhtr.jpg', '_blank')">QRIS</button>
+    <button onclick="event.preventDefault()">DANA: 082165111992</button>
+    <button onclick="event.preventDefault()">GOPAY: GA PUNYA</button>
+  </div>
+  <div class="note">Atas Nama: <strong>ZATUR****</strong></div>
+
+  <hr />
+
+  <!-- Produk Section -->
+  <div class="section">
+
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Partner luxy vip</div>
+      <div class="price">Mulai Rp25.000</div>
+      <div class="product-detail">
+𝐃𝐀𝐏𝐀𝐓𝐊𝐀𝐍 𝟏𝟖 𝐈𝐓𝐄𝐌
+𝐒𝐂𝐑𝐈𝐏𝐓 𝐁𝐔𝐆 𝐕𝐈𝐀 𝐖𝐀/𝐓𝐄𝐋𝐄
+-𝐒𝐂𝐑𝐈𝐏𝐓 𝐁𝐀𝐒𝐄 𝐁𝐔𝐆 𝐖𝐀/𝐓𝐄𝐋𝐄
+-𝐒𝐂𝐑𝐈𝐏𝐓 𝐌𝐃 𝐁𝐄𝐑𝐁𝐀𝐘𝐀𝐑/𝐕𝐈𝐏
+-𝐒𝐂𝐑𝐈𝐏𝐓 𝐃𝐀𝐓𝐀 𝐁𝐀𝐒𝐄 𝐕𝐈𝐀 𝐖𝐀/𝐓𝐄𝐋𝐄
+-𝐒𝐂𝐑𝐈𝐏𝐓 𝐉𝐀𝐒𝐇𝐀𝐑𝐄 𝐁𝐎𝐓 𝐕𝐈𝐀 𝐓𝐄𝐋𝐄
+-𝐒𝐂𝐑𝐈𝐏𝐓 𝐔𝐁𝐎𝐓 𝐏𝐀𝐍𝐄𝐋 𝐕𝐈𝐀 𝐓𝐄𝐋𝐄
+-𝐒𝐂𝐑𝐈𝐏𝐓 𝐎𝐁𝐅/𝐄𝐍𝐂 𝐒𝐂𝐑𝐈𝐏𝐓
+-𝐒𝐂𝐑𝐈𝐏𝐓 𝐂𝐑𝐄𝐀𝐓𝐄 𝐏𝐀𝐍𝐄𝐋
+-𝐒𝐂𝐑𝐈𝐏𝐓 𝐁𝐘𝐏𝐀𝐒𝐒/𝐃𝐄𝐋 𝐓𝐎𝐊𝐄𝐍
+-𝐆𝐄𝐓 𝐌𝐔𝐑𝐈𝐃 𝐁𝐀𝐍𝐃/𝐔𝐍𝐁𝐀𝐍 𝐖𝐀/𝐓𝐄𝐋𝐄
+-𝐆𝐄𝐓 𝐌𝐔𝐑𝐈𝐃 𝐓𝐔𝐓𝐎𝐑 𝐁𝐈𝐊𝐈𝐍 𝐒𝐂𝐑𝐈𝐏𝐓 𝐁𝐔𝐆
+-𝐆𝐄𝐓 𝐌𝐔𝐑𝐈𝐃 𝐒𝐔𝐍𝐓𝐈𝐊 𝐅𝐎𝐋𝐋𝐎𝐖𝐄𝐑𝐒 𝐀𝐋𝐋 𝐒𝐎𝐒𝐌𝐄𝐃
+-𝐆𝐄𝐓 𝐌𝐔𝐑𝐈𝐃 𝐍𝐎𝐊𝐎𝐒
+-𝐆𝐄𝐓 𝐀𝐃𝐏
+-𝐆𝐄𝐓 𝐀𝐃𝐌𝐈𝐍 𝐂𝐇𝐀𝐍𝐄𝐋
+-𝐆𝐄𝐓 𝐀𝐃𝐌𝐈𝐍 𝐑𝐎𝐎𝐌 𝐏𝐔𝐁𝐋𝐈𝐂𝐊
+-𝐆𝐄𝐓 𝐌𝐔𝐑𝐈𝐃 𝐖𝐄𝐁𝐒𝐈𝐓𝐄
+-𝐆𝐄𝐓 𝐃𝐈𝐏𝐑𝐎𝐌𝐎𝐒𝐈/𝐄𝐍𝐃𝐑𝐎𝐒𝐄
+𝐭𝐞𝐥𝐞 : https://t.me/luxyluxyy
+𝐭𝐞𝐬𝐭𝐢 : https://t.me/allinfoluxy
+      </div>
+    </div>
+
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">PANEL PYTHON</div>
+      <div class="price">Rp300—3.500</div>
+      <div class="product-detail">
+𝐏𝐀𝐍𝐄𝐋 𝐏𝐘𝐓𝐇𝐎𝐍
+-𝟏 𝐆𝐁 𝟑𝟎𝟎
+-𝟐 𝐆𝐁 𝟔𝟎𝟎
+-𝟑 𝐆𝐁 𝟗𝟎𝟎
+-𝟒 𝐆𝐁 𝟏.𝟐𝟎𝟎
+-𝟓 𝐆𝐁 𝟏.𝟓𝟎𝟎
+-𝟔 𝐆𝐁 𝟏.𝟖𝟎𝟎
+-𝟕 𝐆𝐁 𝟐.𝟏𝟎𝟎
+-𝟖 𝐆𝐁 𝟐.𝟒𝟎𝟎
+-𝟗 𝐆𝐁 𝟐.𝟕𝟎𝟎
+-𝟏𝟎 𝐆𝐁 𝟑.𝟎𝟎𝟎
+-𝐔𝐍𝐋𝐈 𝐆𝐁 𝟑.𝟓𝟎𝟎
+𝐭𝐞𝐥𝐞 : https://t.me/luxyluxyy
+𝐭𝐞𝐬𝐭𝐢 : https://t.me/allinfoluxy
+      </div>
+    </div>
+
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">VPS PYTHON</div>
+      <div class="price">Rp25.000—120.000</div>
+      <div class="product-detail">
+𝐕𝐏𝐒 𝐏𝐘𝐓𝐇𝐎𝐍
+-𝐑𝟐 𝐂𝟏 𝟐𝟓.𝟎𝟎𝟎
+-𝐑𝟒 𝐂𝟐 𝟒𝟎.𝟎𝟎𝟎
+-𝐑𝟖 𝐂𝟒 𝟓𝟎.𝟎𝟎𝟎
+-𝐑𝟏𝟔 𝐂𝟖 𝟗𝟎.𝟎𝟎
+-𝐑𝟑𝟐 𝐂𝟖 𝟏𝟐𝟎.𝟎𝟎𝟎
+𝐭𝐞𝐥𝐞 : https://t.me/luxyluxyy
+𝐭𝐞𝐬𝐭𝐢 : https://t.me/allinfoluxy
+      </div>
+    </div>
+
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">ALL SC</div>
+      <div class="price">Rp5.000—30.000</div>
+      <div class="product-detail">
+    𝐀𝐋𝐋 𝐒𝐂 𝐃𝐈𝐉𝐔𝐀𝐋 𝐋𝐔𝐗𝐘
+𝐒𝐂 𝐄𝐉𝐄𝐍 𝐀𝐋𝐈𝐂𝐀   𝟑𝟎.𝟎𝟎𝟎
+𝐒𝐂 𝐃𝐀𝐓𝐀 𝐁𝐀𝐒𝐄    𝟏𝟎.𝟎𝟎𝟎
+𝐒𝐂 𝐉𝐀𝐒𝐇𝐀𝐑𝐄     𝟖.𝟎𝟎𝟎
+𝐒𝐂 𝐋𝐔𝐂𝐂𝐈           𝟐𝟓.𝟎𝟎𝟎
+𝐒𝐂 𝐁𝐀𝐒𝐄 𝐁𝐔𝐆   𝟏𝟎.𝟎𝟎𝟎
+𝐒𝐂 𝐏𝐔𝐒𝐇 𝐊𝐎𝐍𝐓𝐀𝐊   𝟓.𝟎𝟎𝟎
+-𝐅𝐑𝐄𝐄 𝐏𝐀𝐍𝐄𝐋 𝐔𝐍𝐋𝐈 𝐁𝐔𝐀𝐓 𝐏𝐄𝐌𝐁𝐄𝐋𝐈𝐀𝐍 𝐒𝐂
+𝐭𝐞𝐥𝐞 : https://t.me/luxyluxyy
+𝐭𝐞𝐬𝐭𝐢 : https://t.me/allinfoluxy      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function toggleDetail(card) {
+      const detail = card.querySelector('.product-detail');
+      detail.style.display = detail.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+
+</body>
+</html>
